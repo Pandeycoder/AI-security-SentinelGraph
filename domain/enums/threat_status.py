@@ -1,4 +1,4 @@
-from enum import str, Enum
+from enum import Enum
 
 class ThreatStatus(str, Enum):
     DETECTED = "detected"

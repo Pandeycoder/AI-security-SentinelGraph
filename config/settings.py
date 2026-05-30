@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     # App
     APP_NAME: str = "Enterprise AI Security Platform"
     DEBUG: bool = False
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000"]
+    ALLOWED_ORIGINS: list[str] = ["http://localhost:3000"]
 
     # Database
     POSTGRES_URL: str = "postgresql+asyncpg://user:password@localhost:5432/ai_security"

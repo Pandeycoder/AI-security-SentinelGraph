@@ -1,0 +1,138 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Environment / secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+secrets/
+credentials/
+
+# ── Distribution / packaging ───────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+*.whl
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Testing & coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.coveragerc
+nosetests.xml
+test-results/
+.tox/
+
+# ── Type checking ──────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDEs ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Docker ─────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Database ───────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+pgdata/
+
+# ── Redis ──────────────────────────────────────────────────────────────────────
+dump.rdb
+redis_data/
+
+# ── Kafka ──────────────────────────────────────────────────────────────────────
+kafka_data/
+zookeeper_data/
+
+# ── ChromaDB / vector store ────────────────────────────────────────────────────
+chroma_data/
+vectorstore_data/
+*.chroma
+
+# ── Ollama ─────────────────────────────────────────────────────────────────────
+ollama_data/
+*.gguf
+*.ggml
+*.bin
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+log/
+
+# ── Alembic ────────────────────────────────────────────────────────────────────
+alembic/versions/*.pyc
+
+# ── Monitoring ─────────────────────────────────────────────────────────────────
+grafana_data/
+prometheus_data/
+
+# ── Uploads / temp ─────────────────────────────────────────────────────────────
+uploads/
+tmp/
+temp/
+*.tmp
+
+# ── AI / ML artifacts ─────────────────────────────────────────────────────────
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+models/
+checkpoints/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
